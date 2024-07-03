@@ -47,5 +47,4 @@ class TestBurger:
                   f'= sauce {ingredient_name} =\n' \
                   f'(==== {bun_name} ====)\n' \
                   f'\nPrice: {bun_price * 2 + ingredient_price}'
-        print(receipt)
         assert burger.get_receipt() == receipt
